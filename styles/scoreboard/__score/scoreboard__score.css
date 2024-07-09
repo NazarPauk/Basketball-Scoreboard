@@ -1,0 +1,13 @@
+.scoreboard__score{
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 100vh;
+    max-width: 155px;
+    height: 100vh;
+    max-height: 120px;
+    overflow: hidden;
+}

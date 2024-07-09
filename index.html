@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="scoreboard">
+        <div class="scoreboard__item">
+            <h2 class="scoreboard__team-name">Home</h2>
+            <div class="scoreboard__score">
+                <span class="scoreboard__point-text" id="scoreboard__point-text-home">0</span>
+            </div>
+            <div class="scoreboard__button-wrapper">
+                <button class="scoreboard__plus-point" onclick="plusOneHomePoints()">+1</button>
+                <button class="scoreboard__plus-point" onclick="plusTwoHomePoints()">+2</button>
+                <button class="scoreboard__plus-point" onclick="plusThreeHomePoints()">+3</button>
+            </div>
+        </div>
+        <div class="scoreboard__item">
+            <h2 class="scoreboard__team-name" onclick="restart()">Guest</h2>
+            <div class="scoreboard__score">
+                <span class="scoreboard__point-text" id="scoreboard__point-text-guest">0</span>
+            </div>
+            <div class="scoreboard__button-wrapper">
+                <button class="scoreboard__plus-point" onclick="plusOneGuestPoints()">+1</button>
+                <button class="scoreboard__plus-point" onclick="plusTwoGuestPoints()">+2</button>
+                <button class="scoreboard__plus-point" onclick="plusThreeGuestPoints()">+3</button>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js">
+    </script>
+</body>
+</html>

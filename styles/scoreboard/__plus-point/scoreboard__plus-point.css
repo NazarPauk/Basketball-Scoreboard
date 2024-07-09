@@ -1,0 +1,15 @@
+.scoreboard__plus-point{
+    background: none;
+    color: rgba(154, 171, 216, 1);
+    font-family:MyCustomFont;
+    font-size: 18px;
+    border: 1px solid rgba(154, 171, 216, 1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    max-width: 45px;
+    height: 100vh;
+    max-height: 45px;
+}

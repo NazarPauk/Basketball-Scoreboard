@@ -1,0 +1,9 @@
+.scoreboard{
+    max-width: 575px;
+    background: rgba(27, 36, 74, 1);
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 69px 82px;
+    gap:100px;
+}

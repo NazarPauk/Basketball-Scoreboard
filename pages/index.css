@@ -1,0 +1,11 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts/font.css);
+
+@import url(../styles/scoreboard/scoreboard.css);
+@import url(../styles/scoreboard/__item/scoreboard__item.css);
+@import url(../styles/scoreboard/__team-name/scoreboard__team-name.css);
+@import url(../styles/scoreboard/__button-wrapper/scoreboard__button-wrapper.css);
+@import url(../styles/scoreboard/__plus-point/scoreboard__plus-point.css);
+@import url(../styles/scoreboard/__point-text/scoreboard__point-text.css);
+@import url(../styles/scoreboard/__score/scoreboard__score.css);

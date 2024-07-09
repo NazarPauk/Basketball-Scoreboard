@@ -1,0 +1,9 @@
+.scoreboard__team-name{
+    margin: 0;
+    font-family: Verdana;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}

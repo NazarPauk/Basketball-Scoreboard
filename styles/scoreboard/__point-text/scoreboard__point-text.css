@@ -1,0 +1,6 @@
+.scoreboard__point-text{
+    color: rgba(249, 79, 109, 1);
+    text-transform: uppercase;
+    font-size: 90px;
+    font-family:MyCustomFont;
+}
