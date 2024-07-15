@@ -12,4 +12,11 @@
     max-width: 45px;
     height: 100vh;
     max-height: 45px;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
+
+.scoreboard__plus-point:hover{
+    opacity: 0.5;
+}
+
