@@ -32,11 +32,3 @@ function plusThreeGuestPoints(){
     guestScore += 3
     guestPoints.textContent = guestScore
 }
-
-// function restart(){
-//     guestScore = 0
-//     homeScore = 0
-//     guestPoints.textContent = guestScore
-//     homePoints.textContent = homeScore
-// }
-
